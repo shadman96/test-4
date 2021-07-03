@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <!--End Bootstrap-->
+
+  <link rel="stylesheet" href="C:\Users\SarchnaR\Desktop\bootstrap-5.0.0-beta3-dist\css\bootstrap.min.css">
+  <script src="C:\Users\SarchnaR\Desktop\bootstrap-5.0.0-beta3-dist\js\bootstrap.min.js"></script>
+
+
+  <!--Font+Icon-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mulish:wght@200&display=swap" rel="stylesheet">
+  <!--End Font+Icon-->
+  
+  <link rel="stylesheet" href="ea.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ea.com</title>
+</head>
+
+
+<body>
+    <nav class="nav-light header-nav" style="background-color: #000;">
+        <ul class="nav justify-content-end">
+            <li class="nav-item px-4 py-1">
+              <a class="nav-links" aria-current="page" href="#"><i class="bi bi-person"></i></a>
+            </li>
+            <li class="nav-item px-4 py-1">
+              <a class="nav-links" href="#"><i class="bi bi-question-circle"></i></a>
+            </li>
+            <li class="nav-item px-4 py-1">
+              <a class="nav-links" href="#"><i class="bi bi-arrow-clockwise"></i></a>
+            </li>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="offcanvas-link pr-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-three-dots-vertical"></i>
+          </a>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">All Games</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <a href="">
+                    <div class="main-img">
+                      <img class="img-1" src="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-play-16x9-png.adapt.crop1x1.767w." style="height: 380px; width: 100%;">
+                      <div class="img-text">
+                        <p>EA Play</p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="games">
+                    <div class="container-fluid">
+                      <div class="row mt-4">
+                        <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2020/06/fifa21-keyart-horizontal-16x9.png.adapt.crop1x1.767w.png"><div class="game-text"><img src="ea-imgs/d5397-3361-934691-0.png" alt=""></div></a>
+                        <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2020/05/m21-keyart.png.adapt.crop1x1.767w.png"><div class="game-text"><img src="ea-imgs/original.png" alt=""></div></a>
+                      </div>
+                    <div class="row mt-4">
+                      <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767w.jpg"><div class="game-text"><img src="ea-imgs/1010-10108712_apex-legends-logo-apex-legends-logo-png.png" alt=""></div></a>
+                      <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2020/05/sws-keyart.jpg.adapt.crop1x1.767w.jpg"><div class="game-text"><img src="ea-imgs/sw-s-logo_f43545d0.png" alt=""></div></a>
+                    </div>
+                    <div class="row mt-4">
+                      <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767w.jpg"><div class="game-text"><img src="ea-imgs/42-425216_sims-4-logo-png-sims-4-logo-white.png" alt=""></div></a>
+                      <a href="" class="col-6"><img src="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/it-takes-two-16x9.png.adapt.crop1x1.767w.png"><div class="game-text"><img src="ea-imgs/it-takes-two-logo-mono.png" alt=""></div></a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          <a class="navbar-brand" style="color: orangered;" href="#">ElectronicArts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Games <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                      <li><h6 class="dropdown-header">BROWSE GAMES</h6></li>
+                      <li><hr class="dropdown-divider mx-auto" style="width: 80%;"></li>
+                      <li><a class="dropdown-item" href="#">Featured Games</a></li>
+                      <li><a class="dropdown-item" href="#">All Games</a></li>
+                      <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                      <li><a class="dropdown-item" href="#">Free-To-Play</a></li>
+                      <li><a class="dropdown-item" href="#">Subscribe</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MoreExperiences <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Subscribe</a></li>
+                  <li><a class="dropdown-item" href="#">Origin</a></li>
+                  <li><a class="dropdown-item" href="#">CompetitiveGaming</a></li>
+                  <li><a class="dropdown-item" href="#">EA Play Live</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Company</a></li>
+                  <li><a class="dropdown-item" href="#">EA Studios</a></li>
+                  <li><a class="dropdown-item" href="#">Our Techtenogy</a></li>
+                  <li><a class="dropdown-item" href="#">EA Partners</a></li>
+                  <li><a class="dropdown-item" href="#">Newses</a></li>
+                  <li><a class="dropdown-item" href="#">Inside EA</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Commitments <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Positive Play</a></li>
+                  <li><a class="dropdown-item" href="#">Inclusion & Diversity</a></li>
+                  <li><a class="dropdown-item" href="#">Community Outreach</a></li>
+                  <li><a class="dropdown-item" href="#">People & Culture</a></li>
+                  <li><a class="dropdown-item" href="#">Enviroment</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Help</a></li>
+                  <li><a class="dropdown-item" href="#">Formus</a></li>
+                  <li><a class="dropdown-item" href="#">Parental Controls</a></li>
+                  <li><a class="dropdown-item" href="#">Accessebility</a></li>
+                  <li><a class="dropdown-item" href="#">Career</a></li>
+                  <li><a class="dropdown-item" href="#">Press</a></li>
+                  <li><a class="dropdown-item" href="#">Investor</a></li>
+                  <li><a class="dropdown-item" href="#">Playtesting</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="section1">
+        <div class="cover-img-1 d-none d-lg-block">
+          <img src="ea-imgs/fifa21-hero-210422-ea-play-landing-hero-xl.jpg" alt="">
+        </div>
+        <div class="cover-img-2 d-block d-lg-none">
+          <img src="ea-imgs/fifa21-hero-210422-ea-play-landing-hero-xl.jpg.adapt.768w.jpg" alt="">
+        </div>
+
+        <div class="main-container">
+          <img src="ea-imgs/fifa21-logo-eap-7x2-xl-5x2-lg-2x1-md-16x9-sm-xs.svg">
+          <h5 class="p-2">Win as one with EA Play*</h5>
+          <p class="p-2">Members can hit the pitch on May 6 and score an EA Play <br> VOLTA SQUAD BOOST and a FUT Season XP Boost!</p>
+          <div class="sect-1-btns">
+            <button class="btn btn-danger">Find Out More</button>
+          </div>
+      </div>
+      </section>
+
+      <section class="section2">
+        <h3 class="section-header text-center">Featured Games</h3>
+        <div class="container-fluid py-4">
+        <div class="sec-2-games">
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper">
+                    <img src="ea-imgs/it-takes-two.jpg" alt="">
+                  </div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/it-takes-two-logo-mono.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper"><img src="ea-imgs/fifa21-champions-edition.png" alt=""></div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/d5397-3361-934691-0.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper"><img src="ea-imgs/star-wars-squadrons-2021-gp.jpg" alt=""></div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/sw-s-logo_f43545d0.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper"><img src="ea-imgs/117692810_672575470010550_6000279351206813159_n.jpg" alt=""></div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/original.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper"><img src="ea-imgs/apex-legends.jpg" alt=""></div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/1010-10108712_apex-legends-logo-apex-legends-logo-png.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            <div class="col">
+              <a href="">
+                <figure>
+                  <div class="game-wallpaper"><img src="ea-imgs/the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg" alt=""></div>
+                  <div class="game-hover-details">
+                    <img class="game-logo" src="ea-imgs/42-425216_sims-4-logo-png-sims-4-logo-white.png">
+                    <p class="d-none">Official Site</p>
+                  </div>
+                </figure>
+              </a>
+            </div>
+            </div>
+        </div>
+        <div class="seemore-btn text-center">
+          <button class="btn btn-outline-dark text-center">Lastest Games</button>
+        </div>
+      </div>
+      </section>
+
+
+
+      <section class="section3">
+        <div class="container-fluid">
+        <h3 class="section-header text-center">Latest Updates</h3>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center pt-4" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">EA News</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">EA Play</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Madden NFL</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-apex-tab" data-toggle="pill" href="#pills-apex" role="tab" aria-controls="pills-apex" aria-selected="false">APEX Legends</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">FIFA</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Star Wars</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">The Sims4</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-battlefield.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">The Battlefield Is Expanding</h5>
+                    <p class="card-text">Two new Battlefield experiences are in development – one for console and PC plus another for mobile.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">FEEL THE RUSH AND LIVE THE DRAMA IN F1® 2021</h5>
+                    <p class="card-text">How far will you go before you reach your “Braking Point”? It’s time for the next generation with F1® 2021</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">It Takes Two Is Available Now</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">BATTLE FOR NEIGHBORVILLE ON NINTENDO SWITCH</h5>
+                    <p class="card-text">Explore offline, unlock wacky customizations through play, and more!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">Partnering with Indie Studios to Deliver Bold, Innovative Game Experiences</h5>
+                    <p class="card-text">Over the past few years, Electronic Arts has partnered with Coldwood Interactive, Hazelight, Zoink, Jo-Mei.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-6 col-xl-4">
+                <div class="card">
+                  <img src="ea-imgs/news-6.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <h5 class="card-title">Fair Play & Dynamic Difficulty Adjustment</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/eaplay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">The Battlefield Is Expanding</h5>
+                      <p class="card-text">Two new Battlefield experiences are in development – one for console and PC plus another for mobile.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                    <img src="ea-imgs/eaplay-fifa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FEEL THE RUSH AND LIVE THE DRAMA IN F1® 2021</h5>
+                      <p class="card-text">How far will you go before you reach your “Braking Point”? It’s time for the next generation with F1® 2021</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/eaplay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">It Takes Two Is Available Now</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/eaplay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">DISCOVER FIVE FUN THINGS TO TRY IN PVZ: BATTLE FOR NEIGHBORVILLE ON NINTENDO SWITCH</h5>
+                      <p class="card-text">Explore offline, unlock wacky customizations through play, and more!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/eaplay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Partnering with Indie Studios to Deliver Bold, Innovative Game Experiences</h5>
+                      <p class="card-text">Over the past few years, Electronic Arts has partnered with Coldwood Interactive, Hazelight, Zoink, Jo-Mei.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/eaplay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Fair Play & Dynamic Difficulty Adjustment</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">The Battlefield Is Expanding</h5>
+                      <p class="card-text">Two new Battlefield experiences are in development – one for console and PC plus another for mobile.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">FEEL THE RUSH AND LIVE THE DRAMA IN F1® 2021</h5>
+                      <p class="card-text">How far will you go before you reach your “Braking Point”? It’s time for the next generation with F1® 2021</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">It Takes Two Is Available Now</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">DISCOVER FIVE FUN THINGS TO TRY IN PVZ: BATTLE FOR NEIGHBORVILLE ON NINTENDO SWITCH</h5>
+                      <p class="card-text">Explore offline, unlock wacky customizations through play, and more!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Partnering with Indie Studios to Deliver Bold, Innovative Game Experiences</h5>
+                      <p class="card-text">Over the past few years, Electronic Arts has partnered with Coldwood Interactive, Hazelight, Zoink, Jo-Mei.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/nfl-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Fair Play & Dynamic Difficulty Adjustment</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-apex" role="tabpanel" aria-labelledby="pills-apex-tab">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-lg-4 g-4">
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">The Battlefield Is Expanding</h5>
+                      <p class="card-text">Two new Battlefield experiences are in development – one for console and PC plus another for mobile.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">FEEL THE RUSH AND LIVE THE DRAMA IN F1® 2021</h5>
+                      <p class="card-text">How far will you go before you reach your “Braking Point”? It’s time for the next generation with F1® 2021</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">It Takes Two Is Available Now</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">DISCOVER FIVE FUN THINGS TO TRY IN PVZ: BATTLE FOR NEIGHBORVILLE ON NINTENDO SWITCH</h5>
+                      <p class="card-text">Explore offline, unlock wacky customizations through play, and more!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Partnering with Indie Studios to Deliver Bold, Innovative Game Experiences</h5>
+                      <p class="card-text">Over the past few years, Electronic Arts has partnered with Coldwood Interactive, Hazelight, Zoink, Jo-Mei.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-6 col-xl-4">
+                  <div class="card">
+                    <img src="ea-imgs/apex-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="game-names-date"><span class="games-name">Battlefield</span> <span class="date">Apr 26.2021</span></div>
+                      <h5 class="card-title">Fair Play & Dynamic Difficulty Adjustment</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="seemore-btn text-center p-4">
+          <button class="btn btn-outline-dark text-center ">Lastest Games</button>
+        </div>
+      </div>
+      </section>
+
+
+      <section class="section4">
+        <div class="sec-4-bg">
+          <img src="ea-imgs/section-4-img.jpg">
+          <div class="sec-4-bg-det">
+            <img src="ea-imgs/1024px-EA_Play_logo.svg.png" style="width: 250px; height: 80px;">
+            <p>Don’t just get the game. Get more from your game. Unlock exclusive <br> rewards, members-only content, and a library of top titles.</p>
+            <button class="btn btn-outline-light">Join Now</button>
+          </div>
+        </div>
+        <div class="sec-4-det p-4">
+          <p>Parents: Video game control is in your hands.</p>
+          <button class="btn btn-outline-dark">Learn More</button>
+        </div>
+      </section>
+
+
+    <footer class="first-footer">
+      <div class="container">
+        <div class="row p-4 h-100">
+          <div class="col-md-8 mx-auto">
+            <ul class="list-unstyled d-flex flex-wrap">
+            <li><a href="#!">Impact Report</a></li>
+            <li><a href="#!">Executives</a></li>
+            <li><a href="#!">Privacy & Security</a></li>
+            <li><a href="#!">Political Activities</a></li>
+            <li><a href="#!">Global Human Rights Statement</a></li>
+            <li><a href="#!">Partner With Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mx-auto">
+            <h5 class="icon-title">Join The Conversation</h5>
+            <ul class="list-unstyled d-flex flex-wrap">
+            <li><a href="#!"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#!"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="#!"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="#!"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#!"><i class="bi bi-twitch"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="ea-imgs/EA-Logo-2.png" class="img-fluid" alt="logo" width="100" height="100"></a>
+                          </div>
+                          <div class="footer-text">
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+                              <li><a href="#">Game Library</a></li>
+                              <li><a href="#">Subscribe</a></li>
+                              <li><a href="#">Origin</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Accessebility</a></li>
+                              <li><a href="#">Help</a></li>
+                              <li><a href="#">Our Services</a></li>
+                              <li><a href="#">Expert Team</a></li>
+                              <li><a href="#">Contact us</a></li>
+                              <li><a href="#">Latest News</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Subscribe</h3>
+                          </div>
+                          <div class="subscribe-form">
+                            <ul>
+                              <li><a href="#">Legal</a></li>
+                              <li><a href="#">Origin</a></li>
+                              <li><a href="#">Security</a></li>
+                              <li><a href="#">User Argeement</a></li>
+                              <li><a href="#">Google Privacy Policy</a></li>
+                              <li><a href="#">Privacy & Cookie Policy</a></li>
+                              <li><a href="#">Online Service Updates</a></li>
+                              <li><a href="#">YouTube Terms of Service</a></li>
+                          </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>© 2021 Electronic Arts Inc.</p>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Select Region</option>
+                          <option value="1">Asia</option>
+                          <option value="2">Africa</option>
+                          <option value="3">Europe</option>
+                          <option value="4">South America</option>
+                          <option value="5">North America</option>
+                          <option value="6">Australia</option>
+                          <option value="7">Other</option>
+                        </select>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
